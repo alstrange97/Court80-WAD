@@ -1,0 +1,153 @@
+/* Custom Variables: Retro Athletics */
+:root {
+    --bg-parchment: #F4F1E1;
+    --primary-orange: #FF6B35;
+    --secondary-navy: #004E98;
+    --accent-yellow: #ECA72C;
+    --border-dark: #111827;
+}
+
+/* Base Style */
+body {
+    background-color: var(--bg-parchment);
+    color: var(--border-dark);
+    font-family: 'Outfit', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Neo-Brutalism Helpers */
+.border-neo {
+    border: 3px solid var(--border-dark);
+}
+
+.shadow-neo {
+    box-shadow: 4px 4px 0px var(--border-dark);
+    transition: all 0.15s ease-in-out;
+}
+
+.shadow-neo:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px var(--border-dark);
+}
+
+/* Navbar */
+.navbar-retro {
+    background-color: var(--secondary-navy);
+    border-bottom: 4px solid var(--border-dark);
+}
+
+/* Cards & Inputs */
+.card-retro {
+    background-color: #ffffff;
+    border: 3px solid var(--border-dark);
+    border-radius: 0px;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 3px solid var(--border-dark);
+    background-color: var(--accent-yellow);
+}
+
+.form-control, .form-select, .input-group-text {
+    border: 3px solid var(--border-dark);
+    border-radius: 0px;
+    background-color: #ffffff;
+    color: var(--border-dark);
+    font-weight: 600;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--border-dark);
+    box-shadow: 3px 3px 0px var(--primary-orange);
+    background-color: #ffffff;
+}
+
+/* Buttons */
+.btn-retro-primary {
+    background-color: var(--primary-orange);
+    color: #ffffff;
+    border: 3px solid var(--border-dark);
+    box-shadow: 3px 3px 0px var(--border-dark);
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-retro-primary:hover {
+    background-color: #e55a2b;
+    color: #ffffff;
+    box-shadow: 5px 5px 0px var(--border-dark);
+}
+
+.btn-retro-warning {
+    background-color: var(--accent-yellow);
+    color: var(--border-dark);
+    border: 2px solid var(--border-dark);
+    box-shadow: 2px 2px 0px var(--border-dark);
+    font-weight: 700;
+}
+
+.btn-retro-danger {
+    background-color: #ff2a2a;
+    color: #ffffff;
+    border: 2px solid var(--border-dark);
+    box-shadow: 2px 2px 0px var(--border-dark);
+    font-weight: 700;
+}
+
+/* Badges */
+.badge-retro-sport {
+    background-color: var(--secondary-navy);
+    color: #ffffff;
+    border: 1.5px solid var(--border-dark);
+    border-radius: 0px;
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+.badge-retro-category {
+    background-color: var(--accent-yellow);
+    color: var(--border-dark);
+    border: 1.5px solid var(--border-dark);
+    border-radius: 0px;
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+/* Modal */
+.modal-content {
+    border: 4px solid var(--border-dark);
+    border-radius: 0px;
+    box-shadow: 8px 8px 0px var(--border-dark);
+    background-color: var(--bg-parchment);
+}
+
+/* Tambahan Styling Halaman Depan & Login */
+.fs-7 {
+    font-size: 0.85rem;
+}
+
+.card-header {
+    background-color: var(--accent-yellow);
+}
+
+.bg-parchment {
+    background-color: var(--bg-parchment);
+}
+
+.form-control::placeholder {
+    
+color: #838384;
+}
+
+.form-control:focus::placeholder {
+    color: #cbd5e0;
+}
